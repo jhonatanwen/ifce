@@ -32,12 +32,10 @@ print()
 print('-'*50)
 print('Emissão da folha de pagamento: ')
 print()
-
 for linha in funcionarios:
     for val in linha:
         print(val, end=' | ')
     print()
-
 print()
 print('Maior salário:')
 print(f'Funcionário -> {max_sal_func}')
