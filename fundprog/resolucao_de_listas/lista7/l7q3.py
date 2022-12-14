@@ -46,6 +46,7 @@ def quantasCedulas(saque):
 
     for item in distribuicao:
         cedulas_string = cedulas_string + f'-> {item[1]} cedulas de {item[0]}\n'
+        quantidade_de_cedulas = quantidade_de_cedulas + item[1]
     
     print(f'Se a pessoa for sacar {saque} reais, deverá obter {quantidade_de_cedulas} cédulas, sendo:\n{cedulas_string}')
 

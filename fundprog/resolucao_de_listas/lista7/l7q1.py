@@ -1,4 +1,3 @@
-#1. Faça uma função em python para ler uma data válida (P.ex.: 12 de junho de 2010) e informar quantos dias já se passaram desta data, considerando o ano com 365 dias e o mês com 30 dias.
 from datetime import date
 
 hoje = date.today()
@@ -57,8 +56,4 @@ def quantosDias(data):
 
     return hoje_em_dias - data_em_dias
 
-
 print(f'Já se passaram {quantosDias(data_requisitada)} dias dessa data.')
-
-        
-
