@@ -1,1 +1,5 @@
 /.vscode
+
+/labprog/*/*.exe
+/labprog/*/*.e
+/labprog/*/*.py
