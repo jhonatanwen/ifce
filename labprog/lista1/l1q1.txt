@@ -1,0 +1,29 @@
+-> Primeiro é feito a operação do operador "*" depois o do operador "/" por último é são feitas respectivamente as operações dos operadores "+" e "-".
+Passo a passo e resultado:
+x = 7 + 3 * 6 / 2 - 1;
+x = 7 + 18 / 2 - 1;
+x = 7 + 9 - 1;
+x = 16 - 1;
+x = 15;
+
+-> Primeiro é feito a operação com operador "%" depois disso é feita a operação com o operador "*" e então a operação com o operador "/", por fim são feitas as operações respectivamente dos operadores "+" e "-".
+Passo a passo e resultado:
+x = 2 % 2 + 2 * 2 - 2 / 2;
+x = 0 + 2 * 2 - 2 / 2;
+x = 0 + 4 - 2 / 2;
+x = 0 + 4 - 1;
+x = 4 - 1;
+x = 3;
+
+-> Primeiro são feitas as operações dentro de um operador "()", no caso, por termos operadores "()" dentro deles o mais interno vem primeiro, após isso é feito a ordem de dos operadores "*" e "/", sendo que o primeiro a ser feito é o que está mais a direita, mas, igualmente aos outros casos acima, irá ser feito primeiro a operação do operador "*" e depois a do operador "/", por último a do operador "+".
+Passo a passo e resultado:
+x = (3 * 9 * (3 + (9 * 3 / (3))));
+x = (3 * 9 * (3 + (9 * 3 / 3)));
+x = (3 * 9 * (3 + (27 / 3)));
+x = (3 * 9 * (3 + (9)));
+x = (3 * 9 * (3 + 9));
+x = (3 * 9 * (12));
+x = (3 * 9 * 12);
+x = (27 * 12);
+x = (324);
+x = 324;
