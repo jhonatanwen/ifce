@@ -708,3 +708,7 @@ int main() {
 	return 0;
 }
 ```
+
+#### Créditos pelo módelo do README:
+
+Esse módelo de README para a lista de Laboratório de Programação foi feito pela [Mikaelle](https://github.com/mikaellecosta) no [próprio repositório dela sobre a lista 1](https://github.com/mikaellecosta/Lista.01-LabDeProgramacao), então todos os créditos sobre identidade visual é para ela.
